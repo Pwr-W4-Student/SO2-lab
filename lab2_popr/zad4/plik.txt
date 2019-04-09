@@ -1,0 +1,8 @@
+plik1.txt
+plik1
+plik3.txt
+plik3
+plik2.txt
+plik2
+plik4.txt
+plik4

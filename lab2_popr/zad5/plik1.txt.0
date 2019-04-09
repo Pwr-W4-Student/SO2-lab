@@ -1,0 +1,15 @@
+#!/bin/bash
+
+dir=*
+
+func=$(find $dir ! -executable)
+
+count=$(echo $func | wc -l)
+
+echo $count
+
+for x in $(cat $plik)
+do
+	echo $x >> plik.txt
+	cat $x >> plik.txt 
+done
